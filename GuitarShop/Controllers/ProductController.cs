@@ -31,6 +31,7 @@ namespace GuitarShop.Controllers
                 products = context.Products
                     .OrderBy(p => p.ProductID).ToList();
             }
+            
             else
             {
                 products = context.Products
